@@ -127,14 +127,6 @@ client.connect(err => {
     })
   })
 
-
-
-
-
-
-
-
-
 });
 
 
@@ -167,4 +159,4 @@ app.get('/',(req, res) =>{
     res.send('Server Is Running...')
 })
 
-app.listen(5000||process.env.PORT)
+app.listen(process.env.PORT||5000)
